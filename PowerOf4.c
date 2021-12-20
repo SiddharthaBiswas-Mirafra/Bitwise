@@ -1,18 +1,18 @@
 #include<stdio.h>
 
-int Pow2(int);
+int Pow4(int);
 int main()
 {
 	int data;
 	printf("Enter a data: ");
 	scanf("%d",&data);
-	if(Pow2(data)==1)
+	if(Pow4(data)==1)
 		printf("The number is Power of 4.\n");
 	else
 		printf("The number is not Power of 4.\n");
 }
 
-int Pow2(int data)
+int Pow4(int data)
 {
 	if(data==0)return 0;
 	 int c= 0;
